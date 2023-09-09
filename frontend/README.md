@@ -34,10 +34,7 @@ This project is a basic Student Management System implemented using the MERN (Mo
 ## How to Run the Project
 
 1. Clone the repository to your local machine:
-   ```
-   git clone https://github.com/GevinN99/Simple-Student-Management-System-Using_MERN.git
-   ```
-
+   
 2. Change into the project directory:
    ```
    cd Student-Management-System
