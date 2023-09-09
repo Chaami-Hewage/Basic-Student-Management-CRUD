@@ -1,70 +1,76 @@
-# Getting Started with Create React App
+# basic Student Management System (MERN Stack)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+This project is a basic Student Management System implemented using the MERN (MongoDB, Express, React, Node.js) stack. It provides a simple web application to manage student information, allowing users to perform CRUD (Create, Read, Update, Delete) operations on student records.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- View a list of all students with their details.
+- View individual student profiles.
+- Add new students to the database.
+- Update existing student information.
+- Delete student records from the database.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Screenshots
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![Screenshot 1](/screenshots/screenshot1.jpg)
+![Screenshot 2](/screenshots/screenshot2.jpg)
+![Screenshot 3](/screenshots/screenshot3.jpg)
+![Screenshot 4](/screenshots/screenshot4.jpg)
+![Screenshot 5](/screenshots/screenshot5.jpg)
+![Screenshot 6](/screenshots/screenshot6.jpg)
+![Screenshot 7](/screenshots/screenshot7.jpg)
+![Screenshot 8](/screenshots/screenshot8.jpg)
 
-### `npm test`
+## Technologies Used
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Frontend: React, HTML, CSS, Bootstrap
+- Backend: Node.js, Express.js, MongoDB
+- State Management: React Hooks
+- Database: MongoDB Atlas (Cloud-hosted MongoDB)
+- Image Upload: Multer (for handling file uploads)
 
-### `npm run build`
+## How to Run the Project
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone the repository to your local machine:
+   ```
+   git clone https://github.com/GevinN99/Simple-Student-Management-System-Using_MERN.git
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. Change into the project directory:
+   ```
+   cd Student-Management-System
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. Install the dependencies for both the frontend and backend:
+   ```
+   cd frontend
+   npm install
+   cd ../backend
+   npm install
+   ```
 
-### `npm run eject`
+4. Start the development server for both frontend and backend:
+   ```
+   cd frontend
+   npm start
+   cd ../backend
+   npm start
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+5. Open your browser and go to `http://localhost:3000` to view the application.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Folder Structure
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- `frontend`: Contains the React frontend code.
+- `backend`: Contains the Node.js backend code.
+- `screenshots`: Contains project screenshots for the README.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## How to Contribute
 
-## Learn More
+Contributions to this project are welcome. If you find any bugs or have suggestions for improvements, feel free to open an issue or submit a pull request.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## License
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the MIT License - see the LICENSE.md file for details.
